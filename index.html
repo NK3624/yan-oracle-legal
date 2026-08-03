@@ -51,6 +51,7 @@
   <ul>
     <li><strong>ข้อมูลบัญชี</strong> — อีเมลหรือบัญชี Google (เมื่อสมัครสมาชิก), ชื่อที่แสดง</li>
     <li><strong>ข้อมูลการใช้งาน</strong> — คำถามที่พิมพ์ ไพ่ที่จับได้ ประวัติผลดูดวง ยอดเครดิตคงเหลือ สถิติการใช้งาน</li>
+    <li><strong>สไตล์การถาม (ปรับวิธีสื่อสาร)</strong> — แอปสรุปสถิติสไตล์การถามของคุณ (เช่น ความยาวคำถาม การถามต่อ) จากประวัติดูดวงของคุณเอง เพื่อปรับ<em>วิธีสื่อสาร</em>คำทำนายให้เป็นธรรมชาติกับคุณ — ไม่มีผลต่อเนื้อหาหรือทิศทางคำทำนาย · ปิดหรือล้างได้ที่ <em>โปรไฟล์</em> · ผู้ใช้ Guest ไม่มีการเก็บส่วนนี้</li>
     <li><strong>ข้อมูลการซื้อ</strong> — ประวัติการซื้อแพ็กเครดิต/สมัครสมาชิก (ผ่าน Google Play Billing) — เราไม่เก็บเลขบัตรเครดิตของคุณ</li>
     <li><strong>ผู้ใช้แบบไม่สมัคร (Guest)</strong> — สร้างบัญชีชั่วคราวแบบนิรนาม ไม่ผูกอีเมล ไม่บันทึกประวัติดูดวง</li>
   </ul>
@@ -63,6 +64,7 @@
       <li><strong>Google Gemini API</strong> — คำถามที่คุณพิมพ์และไพ่ที่จับได้ถูกส่งไปประมวลผลเพื่อสร้างคำทำนาย (ไม่ใช้ฝึกโมเดลสาธารณะ)</li>
       <li><strong>RevenueCat</strong> — ประมวลผลและยืนยันการซื้อในแอปผ่าน Google Play</li>
       <li><strong>Cloudflare Turnstile</strong> — ตรวจสอบว่าเป็นผู้ใช้จริง ไม่ใช่บอท (ป้องกันการใช้งานในทางที่ผิด)</li>
+      <li><strong>Sentry</strong> — รับรายงานข้อผิดพลาดเมื่อแอปขัดข้อง (ข้อมูลทางเทคนิคของข้อผิดพลาดเท่านั้น ไม่มีเนื้อหาคำถามหรือคำทำนายของคุณ)</li>
     </ul>
   </div>
 
@@ -101,6 +103,7 @@
   <ul>
     <li><strong>Account info</strong> — email or Google account (if you sign up), display name</li>
     <li><strong>Usage data</strong> — the questions you type, cards drawn, reading history, credit balance, usage statistics</li>
+    <li><strong>Asking style (wording adaptation)</strong> — the app summarises how you tend to ask (e.g. question length, follow-up frequency) from your own reading history to adapt the <em>wording</em> of readings for you — it never changes a reading’s content or direction. Turn off or clear it anytime in <em>Profile</em>. Not collected for guests.</li>
     <li><strong>Purchase data</strong> — credit pack / subscription purchase history (via Google Play Billing) — we never see your card number</li>
     <li><strong>Guest mode</strong> — an anonymous, temporary account with no email and no saved reading history</li>
   </ul>
@@ -113,6 +116,7 @@
       <li><strong>Google Gemini API</strong> — your typed question and drawn cards are sent to generate the reading (not used to train public models)</li>
       <li><strong>RevenueCat</strong> — processes and validates in-app purchases made through Google Play</li>
       <li><strong>Cloudflare Turnstile</strong> — verifies you're a real person, not a bot (abuse prevention)</li>
+      <li><strong>Sentry</strong> — receives crash reports when the app malfunctions (technical error details only — never your questions or readings)</li>
     </ul>
   </div>
 
@@ -151,6 +155,7 @@
   <ul>
     <li><strong>帳號資訊</strong> — 電子郵件或 Google 帳號（註冊時）、顯示名稱</li>
     <li><strong>使用數據</strong> — 你輸入的問題、抽到的卡牌、占卜紀錄、剩餘點數、使用統計</li>
+    <li><strong>提問風格（表達調整）</strong> — 應用程式會從你自己的占卜紀錄歸納提問風格（如問題長度、追問頻率），僅用於調整占卜的<em>表達方式</em>——絕不影響占卜內容或結論方向。可隨時在<em>個人檔案</em>中關閉或清除。訪客不收集此項。</li>
     <li><strong>購買資料</strong> — 點數包／訂閱的購買紀錄（透過 Google Play Billing）— 我們不會接觸你的信用卡卡號</li>
     <li><strong>訪客模式（Guest）</strong> — 匿名暫時帳號，不綁定電子郵件，不保存占卜紀錄</li>
   </ul>
@@ -163,6 +168,7 @@
       <li><strong>Google Gemini API</strong> — 你輸入的問題與抽到的卡牌會傳送以生成占卜內容（不會用於訓練公開模型）</li>
       <li><strong>RevenueCat</strong> — 處理並驗證透過 Google Play 完成的應用程式內購買</li>
       <li><strong>Cloudflare Turnstile</strong> — 驗證你是真人而非機器人（防止濫用）</li>
+      <li><strong>Sentry</strong> — 在應用程式發生故障時接收當機報告（僅限技術性錯誤資訊，絕不包含你的問題或占卜內容）</li>
     </ul>
   </div>
 
