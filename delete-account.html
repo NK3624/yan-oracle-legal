@@ -1,0 +1,197 @@
+<!doctype html>
+<!--
+  APP_NAME / DEVELOPER_NAME: fill from the Play listing.
+  Both strings live ONLY in the two <meta> constants below and are used as the
+  placeholders {{APP_NAME}} / {{DEVELOPER_NAME}} everywhere else in this file.
+  To finish: replace {{APP_NAME}} and {{DEVELOPER_NAME}} in ONE find-and-replace pass
+  over the whole file (use the exact names shown on the Google Play listing).
+-->
+<html lang="th">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="app-name" content="{{APP_NAME}}" />
+<meta name="developer-name" content="{{DEVELOPER_NAME}}" />
+<title>ลบบัญชี / Delete account — {{APP_NAME}} by {{DEVELOPER_NAME}}</title>
+<style>
+  :root{
+    --bg:#F4F1EA; --card:#FBFAF6; --ink:#20342A; --ink-soft:#3c4a40;
+    --muted:#6b7268; --green:#2E5E48; --hair:rgba(40,60,50,.12);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#161d19; --card:#1d2620; --ink:#eef1ec; --ink-soft:#cfd6d0; --muted:#93a096; --green:#7fbfa0; --hair:rgba(255,255,255,.1); }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Thai",Arial,sans-serif;
+    line-height:1.7;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 96px}
+  header{margin-bottom:8px}
+  .brand{font-weight:700;font-size:22px;letter-spacing:.02em}
+  .updated{color:var(--muted);font-size:13px;margin-top:4px}
+  .nav{font-size:14px;margin-top:12px;color:var(--muted)}
+  .nav a{color:var(--green)}
+  .nav strong{color:var(--ink)}
+  .lang-note{color:var(--muted);font-size:13px;margin:20px 0 8px}
+  h1{font-size:24px;margin:28px 0 4px;line-height:1.35;overflow-wrap:anywhere}
+  h2{font-size:18px;margin:32px 0 8px;color:var(--ink)}
+  p,li{color:var(--ink-soft);font-size:15px}
+  ul,ol{padding-left:22px}
+  a{color:var(--green);overflow-wrap:anywhere}
+  .card{background:var(--card);border:1px solid var(--hair);border-radius:14px;padding:18px 20px;margin:14px 0}
+  .divider{height:1px;background:var(--hair);margin:44px 0}
+  .badge{display:inline-block;background:var(--hair);color:var(--muted);font-size:12px;padding:4px 10px;border-radius:10px;margin-bottom:12px}
+  footer{color:var(--muted);font-size:12px;margin-top:56px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">ญาณ · YĀN</div>
+    <div class="updated">อัปเดตล่าสุด / Last updated: 10 November 2026 · Android package: app.yanoracle</div>
+    <div class="nav"><a href="index.html">นโยบายความเป็นส่วนตัว</a> · <strong>ลบบัญชี</strong> &nbsp;|&nbsp; <a href="#th">ไทย</a> · <a href="#en">English</a> · <a href="#zh">中文</a></div>
+  </header>
+
+  <!-- ============================= THAI ============================= -->
+  <section id="th" lang="th">
+  <span class="badge">ภาษาไทย</span>
+  <h1>ลบบัญชีแอป {{APP_NAME}} โดย {{DEVELOPER_NAME}}</h1>
+  <p>หน้านี้อธิบายวิธีลบบัญชีของคุณในแอป "ญาณ / YĀN" และข้อมูลที่จะถูกลบหรือเก็บไว้</p>
+
+  <h2>วิธีที่ 1: ลบในแอป (ทันที)</h2>
+  <div class="card">
+    <ol style="margin:0">
+      <li>เปิดแอป {{APP_NAME}}</li>
+      <li>ไปที่ <em>โปรไฟล์</em></li>
+      <li>แตะ <em>ลบบัญชี</em></li>
+      <li>กดยืนยัน</li>
+    </ol>
+  </div>
+  <p>การลบมีผลทันทีและถาวร ย้อนคืนไม่ได้</p>
+
+  <h2>วิธีที่ 2: ลบโดยไม่ต้องใช้แอป</h2>
+  <p>ส่งอีเมลจากอีเมลที่ใช้สมัครบัญชี (หรืออีเมลของบัญชี Google ที่ใช้ล็อกอิน) ไปที่ <a href="mailto:nochkacha@gmail.com?subject=%E0%B8%A5%E0%B8%9A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8A%E0%B8%B5%20Y%C4%80N">nochkacha@gmail.com</a> หัวข้อ "ลบบัญชี YĀN" เราจะลบภายใน 7 วัน และตอบกลับเมื่อเสร็จแล้ว</p>
+
+  <h2>ข้อมูลที่จะถูกลบ</h2>
+  <ul>
+    <li>บัญชีของคุณ (อีเมลหรือการล็อกอินด้วย Google)</li>
+    <li>ชื่อที่แสดง</li>
+    <li>ประวัติผลดูดวงและคำถามที่คุณพิมพ์</li>
+    <li>ยอดเครดิตคงเหลือและประวัติเครดิต</li>
+    <li>กระดานที่บันทึกไว้ สมุดบันทึก (Journal) และการตั้งค่า</li>
+    <li>รูปใน My Deck ที่เก็บบนเครื่องของคุณ (ถูกลบเมื่อกดลบบัญชีในแอป หรือเมื่อถอนการติดตั้งแอป)</li>
+  </ul>
+
+  <h2>ข้อมูลที่ยังเก็บไว้ และเหตุผล</h2>
+  <ul>
+    <li><strong>บันทึกการซื้อ</strong> — Google Play และ RevenueCat เก็บประวัติการซื้อตามนโยบายของเขาเอง เราลบแทนไม่ได้</li>
+    <li><strong>บันทึกข้อผิดพลาดของระบบ</strong> — เป็นข้อมูลทางเทคนิคที่ไม่มีเนื้อหาส่วนตัวของคุณ เก็บไว้ไม่เกิน 30 วัน</li>
+    <li><strong>บันทึกด้านกฎหมาย/ภาษีของการซื้อ</strong> — เก็บเท่าที่กฎหมายกำหนด</li>
+  </ul>
+
+  <h2>ผู้ใช้แบบ Guest</h2>
+  <p>Guest คือบัญชีนิรนามที่ไม่มีอีเมล และไม่บันทึกประวัติดูดวง การลบก็คือถอนการติดตั้งแอป เราไม่เก็บข้อมูลส่วนตัวของ Guest ไว้บนเซิร์ฟเวอร์ นอกจากรายการผู้ใช้นิรนามหนึ่งรายการ ซึ่งลบได้ด้วยปุ่ม <em>ลบบัญชี</em> ในแอปเช่นเดียวกัน</p>
+
+  <h2>ติดต่อเรา</h2>
+  <p>มีคำถามเรื่องการลบบัญชี ติดต่อ <a href="mailto:nochkacha@gmail.com">nochkacha@gmail.com</a> · ดู<a href="index.html">นโยบายความเป็นส่วนตัวฉบับเต็ม</a></p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ============================= ENGLISH ============================= -->
+  <section id="en" lang="en">
+  <span class="badge">English</span>
+  <h1>Delete your {{APP_NAME}} account — by {{DEVELOPER_NAME}}</h1>
+  <p>This page explains how to delete your account in the "YĀN" app and what data is deleted or kept.</p>
+
+  <h2>Option 1: Delete in the app (instant)</h2>
+  <div class="card">
+    <ol style="margin:0">
+      <li>Open the {{APP_NAME}} app</li>
+      <li>Go to <em>Profile</em></li>
+      <li>Tap <em>Delete account</em></li>
+      <li>Confirm</li>
+    </ol>
+  </div>
+  <p>Deletion happens immediately and is permanent. It cannot be undone.</p>
+
+  <h2>Option 2: Delete without the app</h2>
+  <p>Email <a href="mailto:nochkacha@gmail.com?subject=Delete%20my%20Y%C4%80N%20account">nochkacha@gmail.com</a> from the e-mail address of your account (or of the Google account you sign in with), with the subject "Delete my YĀN account". We delete the account within 7 days and reply when it is done.</p>
+
+  <h2>What is deleted</h2>
+  <ul>
+    <li>Your account (e-mail or Google sign-in)</li>
+    <li>Display name</li>
+    <li>Reading history and the questions you typed</li>
+    <li>Credit balance and credit history</li>
+    <li>Saved boards, journal, and settings</li>
+    <li>My Deck photos stored on your device (removed when you delete the account in the app, or when you uninstall the app)</li>
+  </ul>
+
+  <h2>What is kept, and why</h2>
+  <ul>
+    <li><strong>Purchase records</strong> — Google Play and RevenueCat keep purchase history under their own policies; we cannot delete it for them.</li>
+    <li><strong>Server error logs</strong> — technical data with no personal content, kept for up to 30 days.</li>
+    <li><strong>Legal and tax records of purchases</strong> — kept only as long as the law requires.</li>
+  </ul>
+
+  <h2>Guests</h2>
+  <p>A guest is an anonymous session with no e-mail and no saved reading history. Deleting it means uninstalling the app. We keep no personal data about guests on the server beyond one anonymous user record, which the same in-app <em>Delete account</em> button removes.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about deletion: <a href="mailto:nochkacha@gmail.com">nochkacha@gmail.com</a> · See the full <a href="index.html#en">Privacy Policy</a></p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ============================= CHINESE (Traditional) ============================= -->
+  <section id="zh" lang="zh-Hant">
+  <span class="badge">中文</span>
+  <h1>刪除 {{APP_NAME}} 帳號（開發者：{{DEVELOPER_NAME}}）</h1>
+  <p>本頁說明如何在「YĀN」應用程式中刪除你的帳號，以及哪些資料會被刪除或保留。</p>
+
+  <h2>方式一：在應用程式內刪除（立即生效）</h2>
+  <div class="card">
+    <ol style="margin:0">
+      <li>開啟 {{APP_NAME}} 應用程式</li>
+      <li>前往<em>個人檔案</em></li>
+      <li>點選<em>刪除帳號</em></li>
+      <li>確認</li>
+    </ol>
+  </div>
+  <p>刪除會立即生效且無法復原。</p>
+
+  <h2>方式二：不使用應用程式也能刪除</h2>
+  <p>請用帳號的電子郵件（或登入用的 Google 帳號信箱）寄信至 <a href="mailto:nochkacha@gmail.com?subject=%E5%88%AA%E9%99%A4%E6%88%91%E7%9A%84%20Y%C4%80N%20%E5%B8%B3%E8%99%9F">nochkacha@gmail.com</a>，主旨寫「刪除我的 YĀN 帳號」。我們會在 7 天內刪除，完成後回信通知你。</p>
+
+  <h2>會被刪除的資料</h2>
+  <ul>
+    <li>你的帳號（電子郵件或 Google 登入）</li>
+    <li>顯示名稱</li>
+    <li>占卜紀錄與你輸入的問題</li>
+    <li>剩餘點數與點數紀錄</li>
+    <li>已儲存的牌陣、日記與設定</li>
+    <li>存放在你裝置上的 My Deck 照片（在應用程式內刪除帳號或解除安裝應用程式時移除）</li>
+  </ul>
+
+  <h2>會保留的資料與原因</h2>
+  <ul>
+    <li><strong>購買紀錄</strong> — Google Play 與 RevenueCat 依各自的政策保存購買紀錄，我們無法代為刪除。</li>
+    <li><strong>伺服器錯誤日誌</strong> — 不含個人內容的技術資料，最多保留 30 天。</li>
+    <li><strong>購買的法律與稅務紀錄</strong> — 僅在法律要求的期間內保留。</li>
+  </ul>
+
+  <h2>訪客（Guest）</h2>
+  <p>訪客是沒有電子郵件、也不保存占卜紀錄的匿名帳號。刪除方式就是解除安裝應用程式。伺服器上除了一筆匿名使用者紀錄外，不保留訪客的個人資料；該紀錄可用同一個應用程式內的「刪除帳號」按鈕移除。</p>
+
+  <h2>聯絡我們</h2>
+  <p>刪除帳號相關問題請聯絡 <a href="mailto:nochkacha@gmail.com">nochkacha@gmail.com</a> · 完整內容請見<a href="index.html#zh">隱私政策</a></p>
+  </section>
+
+  <footer>© 2026 YĀN. Account deletion page for Google Play (User data — Account deletion requirements).</footer>
+</div>
+</body>
+</html>

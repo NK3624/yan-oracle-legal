@@ -22,6 +22,8 @@
   header{margin-bottom:8px}
   .brand{font-weight:700;font-size:22px;letter-spacing:.02em}
   .updated{color:var(--muted);font-size:13px;margin-top:4px}
+  .nav{font-size:14px;margin-top:12px;color:var(--muted)}
+  .nav strong{color:var(--ink)}
   .lang-note{color:var(--muted);font-size:13px;margin:20px 0 8px}
   h1{font-size:26px;margin:28px 0 4px}
   h2{font-size:18px;margin:32px 0 8px;color:var(--ink)}
@@ -39,7 +41,8 @@
 
   <header>
     <div class="brand">ญาณ · YĀN</div>
-    <div class="updated">อัปเดตล่าสุด / Last updated: 10 July 2026</div>
+    <div class="updated">อัปเดตล่าสุด / Last updated: 10 November 2026</div>
+    <div class="nav"><strong>นโยบายความเป็นส่วนตัว</strong> · <a href="delete-account.html">ลบบัญชี</a> / <a href="delete-account.html#en">Delete account</a> / <a href="delete-account.html#zh">刪除帳號</a></div>
   </header>
 
   <!-- ============================= THAI ============================= -->
@@ -72,7 +75,7 @@
   <p>เราไม่ขายข้อมูลส่วนบุคคลให้บุคคลที่สาม ไม่มีโฆษณาในแอป และไม่แชร์ข้อมูลของคุณเพื่อการตลาดจากภายนอก</p>
 
   <h2>สิทธิของคุณ (PDPA)</h2>
-  <p>ตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล (PDPA) คุณมีสิทธิขอเข้าถึง แก้ไข หรือลบข้อมูลส่วนบุคคลของคุณได้ทุกเมื่อ — ลบบัญชีได้ทันทีในแอปที่ <em>โปรไฟล์ → ลบบัญชี</em> (ข้อมูลทั้งหมดจะถูกลบถาวร ย้อนคืนไม่ได้)</p>
+  <p>ตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล (PDPA) คุณมีสิทธิขอเข้าถึง แก้ไข หรือลบข้อมูลส่วนบุคคลของคุณได้ทุกเมื่อ — ลบบัญชีได้ทันทีในแอปที่ <em>โปรไฟล์ → ลบบัญชี</em> (ข้อมูลทั้งหมดจะถูกลบถาวร ย้อนคืนไม่ได้) · <a href="delete-account.html">ดูวิธีลบบัญชีทุกแบบ</a></p>
 
   <h2>ความปลอดภัย</h2>
   <p>ข้อมูลถูกจัดเก็บผ่าน Supabase (เข้ารหัสระหว่างส่ง/พักข้อมูล) และมีการควบคุมสิทธิ์การเข้าถึงระดับแถวข้อมูล (Row Level Security) เพื่อให้แต่ละบัญชีเข้าถึงได้เฉพาะข้อมูลของตนเอง</p>
@@ -95,7 +98,7 @@
   <div class="divider"></div>
 
   <!-- ============================= ENGLISH ============================= -->
-  <span class="badge">English</span>
+  <span class="badge" id="en">English</span>
   <h1>Privacy Policy</h1>
   <p>"YĀN" ("the App", "we") provides oracle-card readings for entertainment. This policy explains how we collect, use, and protect your data.</p>
 
@@ -124,7 +127,7 @@
   <p>We do not sell personal data to third parties, the app carries no ads, and we do not share your data for outside marketing.</p>
 
   <h2>Your rights</h2>
-  <p>You may request access to, correction of, or deletion of your personal data at any time — delete your account instantly in-app via <em>Profile → Delete Account</em> (this permanently erases all associated data).</p>
+  <p>You may request access to, correction of, or deletion of your personal data at any time — delete your account instantly in-app via <em>Profile → Delete Account</em> (this permanently erases all associated data) · <a href="delete-account.html#en">Account deletion page</a>.</p>
 
   <h2>Security</h2>
   <p>Data is stored via Supabase (encrypted in transit and at rest) with row-level security so each account can only access its own data.</p>
@@ -147,7 +150,7 @@
   <div class="divider"></div>
 
   <!-- ============================= CHINESE (Traditional) ============================= -->
-  <span class="badge">中文</span>
+  <span class="badge" id="zh">中文</span>
   <h1>隱私政策</h1>
   <p>「ญาณ / YĀN」（「本應用程式」、「我們」）提供僅供娛樂用途的神諭卡占卜服務。本政策說明我們如何收集、使用及保護你的資料。</p>
 
@@ -176,7 +179,7 @@
   <p>我們不會將個人資料出售予第三方，應用程式內無廣告，也不會將你的資料分享作外部行銷用途。</p>
 
   <h2>你的權利</h2>
-  <p>你可隨時要求查閱、更正或刪除你的個人資料 — 可在應用程式內 <em>個人資料 → 刪除帳號</em> 立即刪除（此操作將永久清除所有相關資料）。</p>
+  <p>你可隨時要求查閱、更正或刪除你的個人資料 — 可在應用程式內 <em>個人資料 → 刪除帳號</em> 立即刪除（此操作將永久清除所有相關資料）· <a href="delete-account.html#zh">帳號刪除說明頁</a>。</p>
 
   <h2>資料安全</h2>
   <p>資料透過 Supabase 儲存（傳輸與靜態儲存皆加密），並採用資料列層級安全性（row-level security），確保每個帳號僅能存取自己的資料。</p>
