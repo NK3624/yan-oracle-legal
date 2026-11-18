@@ -28,6 +28,8 @@
   .nav{margin-left:auto;font-size:14px}
   .nav a{color:var(--muted);text-decoration:none;margin-left:14px}
   .hero{background:var(--green-deep);color:var(--on-green);border-radius:20px;padding:32px 28px;margin-bottom:22px}
+  .hero-logo{width:84px;height:84px;border-radius:20px;display:block;margin:0 0 16px}
+  .promo{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--hair);background:#000;margin:8px 0 4px}
   .hero h1{font-size:30px;line-height:1.25;margin:0 0 10px}
   .hero p{color:var(--on-green);opacity:.9;margin:0 0 20px;font-size:16px}
   .play{display:inline-flex;align-items:center;gap:10px;background:var(--on-green);color:var(--green-deep);text-decoration:none;font-weight:700;font-size:16px;padding:14px 22px;border-radius:999px;min-height:48px}
@@ -52,13 +54,14 @@
 <div class="wrap">
 
   <header>
-    <img src="logo.png" alt="" />
+    <img src="logo.png" alt="โลโก้ ญาณ" />
     <div class="brand">ญาณ · YĀN<small>ไพ่ทำนายดวง · Oracle cards</small></div>
     <nav class="nav" aria-label="หน้าอื่น"><a href="#en" lang="en">English</a><a href="privacy.html">นโยบายความเป็นส่วนตัว</a></nav>
   </header>
 
   <!-- ============================= THAI ============================= -->
   <section class="hero" id="th">
+    <img class="hero-logo" src="logo.png" alt="" />
     <h1>ถามไพ่ได้ทุกเรื่อง<br />อ่านเองก็ได้ ให้ ญาณ AI อ่านให้ฟังก็ได้</h1>
     <p>ญาณ คือแอปไพ่ออราเคิลภาษาไทยบน Android เลือกสำรับ ตั้งคำถาม สับไพ่ แล้วเปิดอ่าน</p>
     <a class="play" href="https://play.google.com/store/apps/details?id=app.yanoracle" rel="noopener">
@@ -67,6 +70,12 @@
     </a>
     <div class="play-note">ฟรี · มีการซื้อในแอป · Android เท่านั้น</div>
   </section>
+
+  <h2>ดูแอปใน 15 วินาที</h2>
+  <video class="promo" controls playsinline preload="none" poster="promo-poster.png" width="1920" height="1080">
+    <source src="promo.mp4" type="video/mp4" />
+    วิดีโอแนะนำแอป ญาณ (เบราว์เซอร์นี้เล่นวิดีโอไม่ได้)
+  </video>
 
   <h2>ในแอปมีอะไร</h2>
   <div class="grid">
